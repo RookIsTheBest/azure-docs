@@ -41,7 +41,7 @@ Scale sets support up to 1,000 VMs when you use an Azure platform image. For wor
 
 
 ## Create an app to scale
-Before you can create a scale set, create a resource group with [New-AzureRmResourceGroup](/powershell/module/azurerm.resources/new-azurermresourcegroup). The following example creates a resource group named *myResourceGroupAutomate* in the *EastUS* location:
+Before you can create a scale set, create a resource group with [New-AzureRmResourceGroup](/powershell/module/azurerm.resources/new-azurermresourcegroup). The following example creates a resource group named *myResourceGroupScaleSet* in the *EastUS* location:
 
 ```powershell
 New-AzureRmResourceGroup -ResourceGroupName myResourceGroupScaleSet -Location EastUS
