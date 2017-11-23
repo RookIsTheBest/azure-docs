@@ -204,8 +204,9 @@ In the previous configuration, the following lines have the following meanings:
 <Logs scheduledTransferPeriod="PT1M" scheduledTransferLogLevelFilter="Verbose" sinks="ApplicationInsights.MyLogData"/>
 ```
 ```JSON
-"DiagnosticMonitorConfiguration": {
-	"overallQuotaInMB": 4096,
+"Logs": {
+	"scheduledTransferPeriod": "PT1M",
+	"scheduledTransferLogLevelFilter": "Verbose",
 	"sinks": "ApplicationInsights.MyLogData",
 }
 ```
